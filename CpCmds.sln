@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CpCmds", "CpCmds\CpCmds.vcxproj", "{9596926F-2A23-4432-B4B5-E8ED51EB7BB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testPlugin", "testPlugin\testPlugin.vcxproj", "{E8D7866A-96DA-44A2-AD07-FF788B763650}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9596926F-2A23-4432-B4B5-E8ED51EB7BB1} = {9596926F-2A23-4432-B4B5-E8ED51EB7BB1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9596926F-2A23-4432-B4B5-E8ED51EB7BB1}.Debug|x64.ActiveCfg = Debug|x64
+		{9596926F-2A23-4432-B4B5-E8ED51EB7BB1}.Debug|x64.Build.0 = Debug|x64
+		{9596926F-2A23-4432-B4B5-E8ED51EB7BB1}.Release|x64.ActiveCfg = Release|x64
+		{9596926F-2A23-4432-B4B5-E8ED51EB7BB1}.Release|x64.Build.0 = Release|x64
+		{E8D7866A-96DA-44A2-AD07-FF788B763650}.Debug|x64.ActiveCfg = Debug|x64
+		{E8D7866A-96DA-44A2-AD07-FF788B763650}.Debug|x64.Build.0 = Debug|x64
+		{E8D7866A-96DA-44A2-AD07-FF788B763650}.Release|x64.ActiveCfg = Release|x64
+		{E8D7866A-96DA-44A2-AD07-FF788B763650}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78BF4F05-60E7-4294-9B78-66416B72F81A}
+	EndGlobalSection
+EndGlobal
